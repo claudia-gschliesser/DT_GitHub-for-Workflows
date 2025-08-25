@@ -4,7 +4,7 @@
     "author": "Nigel Rees",
     "title": "Sayings of the Century",
     "price": {
-      "value": 8.95,
+      "value": 42,
       "currency": "USD"
     }
   },
@@ -13,7 +13,7 @@
     "author": "Evelyn Waugh",
     "title": "Sword of Honour",
     "price": {
-      "value": 42,
+      "value": 12.99,
       "currency": "USD"
     },
     "rating": {
