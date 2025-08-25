@@ -10,7 +10,7 @@
   author: Carl Sagan
   title: Cosmos
   price:
-    value: 42
+    value: 15.99
     currency: USD
   rating:
     value: 10
@@ -18,5 +18,5 @@
   author: Yuval Noah Harari
   title: Sapiens
   price:
-    value: 18.50
+    value: 42.00
     currency: USD
