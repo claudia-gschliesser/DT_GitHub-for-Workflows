@@ -6,9 +6,6 @@
     "price": {
       "value": 42,
       "currency": "USD"
-    },
-    "rating": {
-      "value": 10
     }
   },
   {
