@@ -15,6 +15,9 @@
     "price": {
       "value": 12.99,
       "currency": "USD"
+    },
+    "rating": {
+      "value": 10
     }
   }
 ]
