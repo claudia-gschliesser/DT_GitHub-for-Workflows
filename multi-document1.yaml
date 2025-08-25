@@ -12,11 +12,11 @@
   price:
     value: 15.99
     currency: USD
-  rating:
-    value: 10
 - category: history
   author: Yuval Noah Harari
   title: Sapiens
   price:
     value: 42.00
     currency: USD
+  rating:
+    value: 10
