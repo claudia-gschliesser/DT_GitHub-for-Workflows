@@ -1,0 +1,25 @@
+name: Amazing Workflow
+
+# This workflow runs on every push to the repository.
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Name of the workflow"
+        required: true
+        default: "Amazing Workflow"
+      greeting:
+        description: "Optional greeting message"
+        required: false
+        default: "Hello there!"
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Print Amazing Message
+        run: |
+          echo "${{ inputs.greeting }}! Welcome to ${{ inputs.name }}."
